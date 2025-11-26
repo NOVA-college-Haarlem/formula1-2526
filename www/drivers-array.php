@@ -1,6 +1,8 @@
 <?php
 // Formula 1 drivers associative array (first 25 drivers)
 $drivers = [
+
+  
     [
         'position' => 1,
         'name' => 'Max Verstappen',
@@ -9,6 +11,7 @@ $drivers = [
         'wins' => 5,
         'image' => 'http://static.photos/people/200x200/10',
     ],
+   
     [
         'position' => 2,
         'name' => 'Sergio Perez',
@@ -202,4 +205,18 @@ $drivers = [
         'wins' => 0,
         'image' => 'http://static.photos/people/200x200/34',
     ],
+    
 ];
+
+// foreach($drivers as $driver ):
+ 
+
+//     echo "<p>". $driver['position'] . "</p>";
+//     echo "<p>". $driver['name'] . "</p>";
+//     echo "<p>". $driver['team'] . "</p>";
+//     echo "<p>". $driver['points'] . "</p>";
+//     echo "<p>". $driver['wins'] . "</p>";
+//     echo "<p>". $driver['image'] . "</p>";
+    
+// endforeach;
+// die;
